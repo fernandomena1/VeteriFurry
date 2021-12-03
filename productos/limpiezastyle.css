@@ -1,0 +1,178 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+
+	background: #183F5F
+}
+
+#contenedor{
+
+	width: 1250px;
+	height: 915px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	background: #fff;
+	
+}
+
+div#encabezado{
+
+	box-shadow: 5px 5px 5px;
+
+	width: 200px;
+	height: 50px;
+	/*background-image: linear-gradient(#26E0CC,#AAEDF2,#F5B3F2);*/
+	background: #01CBBC;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+div#encabezado h1{
+
+	
+	text-shadow: 1.5px 1.5px 0px #fff;
+	text-align: center;
+	font-style: italic;
+
+}
+
+#contenedor img{
+
+	margin:auto;
+	margin-top: 60px;
+	margin-bottom:40px;
+	width: 300px;
+	height: 300px;
+
+}
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+
+	box-shadow: 5px 5px 5px;	
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 300px;
+	height: 70px;px;
+	
+	background: #01CBBC;
+	margin: auto;
+	border-radius: 20px;
+	text-shadow: 1px 1px 0 #fff;
+
+}
+
+.contenedor1{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 155px;
+}
+
+.centrado{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 300px;
+	height: 70px;px;
+	
+	margin: auto;
+	border-radius: 20px;
+}
+
+.contenedor2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 155px;
+}
+
+.centrado{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 300px;
+	height: 70px;px;
+	
+	margin: auto;
+	border-radius: 20px;
+}
+
+.contenedor3{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 300px;
+	height: 70px;px;
+	
+	margin: auto;
+	border-radius: 20px;
+}
+
+.contenedor4{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 155px;
+}
+
+.centrado{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 300px;
+	height: 70px;px;
+	
+	margin: auto;
+	border-radius: 20px;
+}
+
+.contenedor5{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 155px;
+}
+
+.centrado{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 300px;
+	height: 70px;px;
+	
+	margin: auto;
+	border-radius: 20px;
+}

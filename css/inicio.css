@@ -1,0 +1,25 @@
+#contenedor {
+	width: 700px;
+}
+#cabecera {
+}
+#menu {
+  float: left;
+  width: 15%;
+}
+#contenido {
+  float: left;
+  width: 85%;
+}
+#contenido #principal {
+  float: left;
+  width: 80%;
+}
+#contenido #secundario {
+  float: left;
+  width: 20%;
+}
+
+#pie {
+  clear: both;
+}

@@ -1,0 +1,419 @@
+*{
+	margin:0px;
+	padding: 0px
+}
+
+div#general{ /*Contenedor*/
+	margin: auto;
+	margin-top:0%;
+	max-width: 90%;
+	height: auto;
+	background-color: white;	
+
+}
+
+div#perfil{
+	float:right;	
+	width: 250px;
+	height: auto;	
+	margin-top: 5px;	
+	background-color:white;
+	border-radius: 0px 0px 25px 25px;	
+	border-bottom: solid  #009240  .4rem;
+	font-family: comic sans;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+div#mascotas{
+	display: right;
+	width: 520px;
+	height: auto;
+	background-color: #e0e0e0 ;
+	margin-top: 0px;
+	border-radius: 0px 10px 25px 0px;	
+	border-bottom: solid #dc00ff .1rem;		
+	font-family: comic sans;
+	font-size: 18px;
+	text-indent: 70px;	
+}
+
+div#izq{
+	float:left;
+	width: 400px;
+	height: auto;
+	background-color: transparent ;	
+	font-family: comic sans;
+	font-size: 18px;
+	text-indent: 70px;		
+}
+
+div#der{
+	float:right;
+	width: 520px;
+	height: auto;
+	background-color: transparent;			
+	font-family: comic sans;
+	font-size: 18px;
+	text-indent: 70px;	
+}
+
+div#contenido{
+	margin-top: 20px;
+	margin: 30px;
+	width: 600px;
+	height: auto;
+	background-color: #e0e0e0 ;
+	font-family: comic sans;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 0px 25px 25px 25px;	
+	border-bottom: solid #dc00ff .1rem;		
+	background-image: url("registro.jpeg");
+	display:none;
+}
+
+div#Doctor{
+	margin-top: 20px;
+	margin: 30px;
+	width: 600px;
+	height: auto;
+	background-color: #e0e0e0 ;
+	font-family: comic sans;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 0px 25px 25px 25px;	
+	border-bottom: solid #dc00ff .1rem;		
+	background-image: url("registro.jpeg");
+	display:none;
+}
+
+
+div#veterinario{
+	display: flex;
+	margin-top: 5px;
+	margin: 30px;
+	width: 600px;
+	height: auto;
+	background-color: #e0e0e0 ;
+	background-image: url("Administrador/WhatsApp Image 2021-01-20 at 15.17.59.jpeg");
+	font-family: comic sans;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 0px 25px 25px 25px;		
+	border-bottom: solid #dc00ff .1rem;		
+	display:none;
+}
+
+
+select{	
+	font-size: 14px;
+	border-radius: 10px 10px 10px 10px;		
+	cursor:pointer;
+}
+
+
+div#usuario_modo{
+	margin-top: 20px;
+	margin: 30px;
+	width: 600px;
+	height: auto;
+	background-color: #e0e0e0 ;
+	background-image: url("Administrador/WhatsApp Image 2021-01-20 at 17.52.09.jpeg");	
+	font-family: comic sans;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 0px 25px 25px 25px;		
+	border-bottom: solid #dc00ff .1rem;		
+	display:none;
+}
+
+#modi{
+display:none;
+}
+#alta{
+display:none;
+} 
+
+header{	
+	width: 100%;
+	height: 65px;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between; 	
+	/*background-color: #16697a;*/
+	background-image: url("gatos.jpeg");
+	border-bottom: solid .3rem #dc00ff ;
+	margin-bottom: 1rem;
+}
+header h1{
+  margin-left: 0px;
+  margin-top: -35px;
+  font-family: montez;
+  font-size: 30px;  
+  
+  background-color: #16697a;;
+}
+header a{
+  margin-right: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+  transition: all ease 300ms;
+}
+header a:hover{
+  color: rgb(180, 210, 212);
+}
+
+.boton{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	fondo: transparent;
+	border: 2px solid #16697a;
+	border-radius:6px;
+	cursor: puntero;
+	
+}
+
+.boton:hover{
+	background: #008CBA;
+	color: white;
+	transition: 0.5 s;
+}
+
+
+.botonHis{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	fondo: transparent;
+	border: 2px solid  #007f17 ;
+	border-radius:6px;
+	cursor: puntero;
+}
+
+.botonHis:hover{
+	background:  #00a51e ;
+	color: white;
+	transition: 0.5 s;
+}
+
+.botonMod{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	fondo: transparent;
+	border: 2px solid   #7a00a5  ;
+	border-radius:6px;
+	cursor: puntero;
+}
+
+.botonMod:hover{
+	background:   #bb00fc  ;
+	color: white;
+	transition: 0.5 s;
+}
+
+
+
+.botonEliminar{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	fondo: transparent;
+	border: 2px solid   #a50200  ;
+	border-radius:6px;
+	cursor: puntero;
+}
+
+.botonEliminar:hover{
+	background:   #fc0400  ;
+	color: white;
+	transition: 0.5 s;
+}
+
+
+div#menu{
+	margin: 0px;
+	margin-top: -22px;
+	width: 530px;
+	height: auto;
+	background-color: transparent;	
+}
+
+div#reporteDoctores{
+	display:none;
+	border-radius: 100px 25px 29px 25px;		
+}
+
+div#usuario_modo_reportes{
+	display:none;
+	border-radius: 100px 25px 29px 25px;		
+}
+
+
+div#recetaMedica{
+	margin: auto;
+	margin-top: 20px;
+	width: 800px;
+	height: auto;
+	background-color: #e0e0e0 ;
+	background-image: url("fondo_huella.jpeg");	
+	font-family: comic sans;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 25px 25px 25px 25px;	
+	border-bottom: solid #dc00ff .1rem;		
+	display:none;
+}
+
+div#recetaMedicaDatos{	
+	width: 700px;
+	border-radius: 100px 25px 29px 25px;		
+}
+
+div#expedientes_consultas{
+	display:none;
+	border-radius: 100px 25px 29px 25px;		
+}
+
+div#linea{
+	margin: auto;
+	margin-top: 0px;
+	height: 5px;
+}
+
+.botonC{
+  width: 60%;
+  height: 30px;
+  font-size: 18px;
+  border: 0;
+  text-align: center;
+  background: rgba(255, 0, 0, 0.0);
+  border-top: solid 3px  #2300ff ;
+  color: black;
+  margin-top: 50px;
+  transition: all 200ms ease;
+}
+.botonC:hover{
+  width: 70%;
+  
+}
+.botonC:active{
+  background-color: rgba(255, 255, 255,0.2);
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+}
+.botonC:focus{
+  background-color: rgba(255, 255, 255,0.2);
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+}
+
+div#mascotas_Ver{
+	margin-top: 20px;
+	margin: 30px;
+	width: 600px;
+	height: auto;
+	background-color: #e0e0e0 ;
+	background-image: url("administrador/WhatsApp Image 2021-01-20 at 18.13.48.jpeg");	
+	font-family: comic sans;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 0px 25px 25px 25px;		
+	border-bottom: solid #dc00ff .1rem;		
+	display:none;
+}
+
+div#productos_panel{
+	margin-top: 20px;
+	margin: 30px;
+	width: 600px;
+	height: auto;
+	background-color: #e0e0e0 ;
+	font-family: comic sans;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 0px 25px 0px 0px;		
+	border-top: solid #dc00ff .1rem;		
+	background-image: url("administrador/WhatsApp Image 2021-01-20 at 18.22.28.jpeg");
+	display:none;
+}
+
+div#altaProd{	
+	border-radius: 100px 25px 29px 25px;		
+	display:none;
+}
+
+div#modProd{	
+	border-radius: 100px 25px 0px 0px;		
+	display:none;
+}
+
+div#cambiar{	
+	border-radius: 0px 0px 29px 25px;		
+	display:none;
+}
+
+
+div#post_panel{
+	margin-top: 20px;
+	margin: 30px;
+	width: 600px;
+	height: auto;
+	background-color: #e0e0e0 ;
+	font-family: comic sans;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 0px 25px 25px 25px;		
+	border-top: solid #dc00ff .1rem;		
+	background-image: url("administrador/WhatsApp Image 2021-01-20 at 18.38.03.jpeg");
+	display:none;
+}
+
+div#altaPost{	
+	border-radius: 100px 25px 29px 25px;		
+	display:none;
+}
+
+div#modPost{	
+	border-radius: 100px 25px 0px 0px;		
+	display:none;
+}
+
+div#cambiarPost{	
+	border-radius: 0px 0px 29px 25px;		
+	display:none;
+}
+
+
+div#reportes{
+	margin-top: 20px;
+	width: 600px;
+	height: auto;
+	background-color: #e0e0e0 ;
+	font-family: comic sans;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 0px 25px 25px 25px;		
+	border-top: solid #dc00ff .1rem;		
+	background-image: url("usuario/mascota.jpeg");
+	display:none;
+}

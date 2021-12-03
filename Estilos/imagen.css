@@ -1,0 +1,72 @@
+/*EFECTO GIRO*/
+
+#containerEx3 {
+margin: 0 auto;
+}
+.ex3 img {
+margin: 20px;
+
+Para poner sombra
+-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+}
+.ex3 img:hover {
+-webkit-transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
+transform: rotate(-20deg);
+}
+
+/*EFECTO ZOOM*/
+	
+#container {
+
+margin: 0 auto;
+}
+.ex2 img{
+
+margin: 15px 0;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.ex2 img:hover {
+height: 400px;
+width: 400px;
+margin-bottom: 50px;
+}
+
+/*EFECTO ARCHIVAR*/
+.shrink:hover
+{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+}
+
+/*EFECTO COLOR*/
+.color:hover
+{
+background:#53a7ea;
+}
+
+
+
+/*EFECTO SOMBRA*/
+
+.sombra:hover
+{
+box-shadow:
+1px 1px #53a7ea,
+2px 2px #53a7ea,
+3px 3px #53a7ea;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+
+
